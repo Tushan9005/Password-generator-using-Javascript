@@ -33,21 +33,21 @@ function generatePassword() {
 
     let password = "";
 
-    if (upperEl.checked) {
-        password += getUppercase();
-    }
+    // if (upperEl.checked) {
+    //     password += getUppercase();
+    // }
 
-    if (lowerEl.checked) {
-        password += getLowercase();
-    }
+    // if (lowerEl.checked) {
+    //     password += getLowercase();
+    // }
 
-    if (numberEl.checked) {
-        password += getNumber();
-    }
+    // if (numberEl.checked) {
+    //     password += getNumber();
+    // }
 
-    if (symbolEl.checked) {
-        password += getSymbol();
-    }
+    // if (symbolEl.checked) {
+    //     password += getSymbol();
+    // }
 
     for (let i = password.length; i < len; i++) {
         const x = generateX();
